@@ -1,0 +1,246 @@
+body {
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: rgb(106, 72, 255);
+    width: auto;
+    height: 790px;
+    display: block;
+}
+
+.A-propos-de-moi {
+    padding-left: 10%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.A-propos-de-moi:hover {
+    color: black;
+}
+
+.Experience {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Experience:hover {
+    color: rgb(0, 0, 0);
+}
+
+.Scolaire {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Scolaire:hover {
+    color: black;
+}
+
+
+.Compétence {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Compétence:hover {
+    color: black;
+}
+
+.Loisir {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Loisir:hover {
+    color: black;
+}
+
+.Ordinateur {
+    padding-top: 20px;
+    width: 1500px;
+    height: 708px;
+    opacity: 80%;
+    display: flex;
+    position: relative;
+}
+
+.Hello {
+    font-size: 45px;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 400px;
+    color: white;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+}
+
+.Nom {
+    font-size: 75px;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 410px;
+    color: white;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+}
+
+h1 {
+    font-size: 80px;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 500px;
+    color: white;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+}
+
+h2 {
+    color: rgb(106, 72, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20%;
+    display: flex;
+}
+
+.A_propos_de_moi {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+.bloc {
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+h3 {
+    color: rgb(106, 72, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 380px;
+    padding-top: 10px;
+    display: inline-flex;
+}
+
+h4 {
+    color: rgb(106, 72, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 200px;
+    display: inline-flex;
+}
+
+.experience {
+    padding-left: 380px;
+    font-size: 20px;
+    display: flex;
+}
+
+.scolaire {
+    padding-left: 200px;
+    font-size: 20px;
+    display: flex;
+}
+
+h5 {
+    color: rgb(106, 72, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 380px;
+    display: inline-flex;
+}
+
+.compétence {
+    padding-left: 380px;
+    font-size: 20px;
+    display: flex;
+}
+
+h6 {
+    color: rgb(106, 72, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 380px;
+    display: inline-flex;
+}
+
+.loisir {
+    padding-left: 380px;
+    font-size: 20px;
+    display: flex;
+}
+
+.bloc-footer {
+    width: auto;
+    height: 230px;
+    background-color: aliceblue;
+    display: block;
+}
+
+.fin {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20%;
+    color: black;
+    display: inline-block;
+}
+
+.Mail-footer {
+    padding-left: 500px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.Tel-footer {
+    padding-top: 90px;
+    padding-left: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.Copyrigth {
+    color: rgb(255, 255, 255);
+    margin-left: 45%;
+    display: block;
+}
+
+footer {
+    width: auto;
+    height: 50px;
+    background-color: rgb(106, 72, 255);
+    bottom: 0%;
+    display: flex;
+}
+
+/* * {
+    border: 2px solid red;
+} */
