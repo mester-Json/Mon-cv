@@ -1,18 +1,31 @@
 body {
     margin: 0%;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 nav {
-    background-color: rgb(106, 72, 255);
+    background-color: #102B3F;
     width: auto;
     height: 790px;
     display: block;
 }
 
+.img {
+    background-image: url(./img/Ordinateur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    margin-top: 44px;
+    width: 1400px;
+    height: 704px;
+    display: flex;
+    position: relative;
+}
+
 .A-propos-de-moi {
-    padding-left: 10%;
+    padding-left: 100px;
     font-size: 20px;
+    block-size: 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -24,8 +37,9 @@ nav {
 }
 
 .Experience {
-    padding-left: 5%;
+    padding-left: 100px;
     font-size: 20px;
+    block-size: 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -37,8 +51,9 @@ nav {
 }
 
 .Scolaire {
-    padding-left: 5%;
+    padding-left: 100px;
     font-size: 20px;
+    block-size: 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -51,8 +66,9 @@ nav {
 
 
 .Compétence {
-    padding-left: 5%;
+    padding-left: 100px;
     font-size: 20px;
+    block-size: 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -64,8 +80,9 @@ nav {
 }
 
 .Loisir {
-    padding-left: 5%;
+    padding-left: 100px;
     font-size: 20px;
+    block-size: 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -76,73 +93,81 @@ nav {
     color: black;
 }
 
-.My_Pictures {
-    width: 110px;
+/*.My_Pictures {
+    width: 100px;
     height: 100px;
-    border-radius: 90%;
-    border: solid black 3px;
-    margin-left: 50px;
+    border-radius: 90% ;
+    border: 3px solid black;
     display: flex;
-
 }
 
-.Présentation {
-
-    padding-top: 200px;
+.Nom {
+    margin-left: 1550px;
     padding-right: 100px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    float: right;
-    flex-direction: column;
+    text-decoration: none;
+    justify-content: right;
     display: flex;
 }
 
-.Ordinateur {
-    padding-top: 20px;
-    width: 1500px;
-    height: 707px;
-    opacity: 80%;
-    z-index: 0;
-    display: flex;
-    position: relative;
+.Tel {
+    margin-left: 1550px;
+    padding-right: 110px;
+    text-decoration: none;
+    justify-content: right;
+    display: flex
 }
 
-.Hello {
-    font-size: 45px;
-    padding-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 400px;
-    color: white;
-    z-index: 1;
+.Mail {
+    margin-left: 1550px;
+    padding-right: 70px;
+    text-decoration: none;
+    justify-content: right;
+    display: flex
+}
+
+.Ville {
+    margin-left: 1550px;
+    padding-right: 100px;
+    text-decoration: none;
+    justify-content: right;
+    display: flex
+}
+
+.Github {
+    margin-left: 1550px;
+    padding-right: 70px;
+    justify-content: right;
     display: flex;
+} */
+
+h1 {
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    padding-left: 150px;
+    font-size: 50px;
     position: absolute;
 }
 
 .Nom_titles {
-    font-size: 75px;
-    padding-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 410px;
-    color: white;
-    z-index: 1;
-    display: flex;
+    color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-left: 150px;
+    font-size: 50px;
+    block-size: 0;
     position: absolute;
 }
 
-h1 {
-    font-size: 80px;
-    padding-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 500px;
-    color: white;
-    z-index: 1;
-    display: flex;
+.titles{
+    color: rgb(255, 255, 255);
+    padding-top: 350px;
+    padding-left: 150px;
+    font-size: 50px;
+    block-size: 0;
     position: absolute;
 }
 
 h2 {
-    color: rgb(106, 72, 255);
+    color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 20%;
@@ -166,7 +191,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(106, 72, 255);
+    color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 380px;
@@ -175,7 +200,7 @@ h3 {
 }
 
 h4 {
-    color: rgb(106, 72, 255);
+    color:#102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 200px;
@@ -195,7 +220,7 @@ h4 {
 }
 
 h5 {
-    color: rgb(106, 72, 255);
+    color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 380px;
@@ -209,7 +234,7 @@ h5 {
 }
 
 h6 {
-    color: rgb(106, 72, 255);
+    color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 380px;
@@ -222,12 +247,6 @@ h6 {
     display: flex;
 }
 
-.bloc-footer {
-    width: auto;
-    height: 230px;
-    background-color: aliceblue;
-    display: block;
-}
 
 .fin {
     font-size: 35px;
@@ -259,7 +278,7 @@ h6 {
 footer {
     width: auto;
     height: 50px;
-    background-color: rgb(106, 72, 255);
+    background-color: #102B3F;
     bottom: 0%;
     display: flex;
 }
