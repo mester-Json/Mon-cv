@@ -5,43 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cv-style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title> Mon Cv | Accueil </title>
 </head>
 
 <body>
     <nav>
-        <a href="" class="A-propos-de-moi">
+        <a href="#h2" class="A-propos-de-moi">
             <p> A propos de moi </p>
         </a>
-        <a href="" class="Experience">
+        <a href="#h3" class="Experience">
+            <p> Mes diplôme </p>
+        </a>
+        <a href="#h4" class="Scolaire">
             <p> Mes experiance professionel </p>
         </a>
-        <a href="" class="Scolaire">
-            <p> Parcoure scolaire </p>
-        </a>
-        <a href="" class="Compétence">
+        <a href="#h5" class="Compétence">
             <p> Mes Compétence </p>
         </a>
-        <a href="" class="Loisir">
+        <a href="#h6" class="Loisir">
             <p> Loisir </p>
         </a>
-        <!--    <img class="My_Pictures" src="./img/Pictures.jpg" alt="Photo de moi "> 
-        <a href="#" class="Nom">
-            <p> Decubber Jayson </p>
-        </a>
-        <a href="#" class="Tel">
-            <p> 07 63 88 03 95 </p>
-        </a>
-        <a href="#" class="Mail">
-            <p> decubberjayson@gmai.com </p>
-        </a>
-        <a href="#" class="Ville">
-            <p> Billy-Montigny </p>
-        </a>
-        <a href="https://github.com/jaysd5" class="Github">
-            <p> https://github.com/jaysd5 </p>
-        </a> -->
-        <div class=" img">
+        <div class="img">
             <h1> Hello World ! </h1>
             </a>
             <a class="Nom_titles">
@@ -52,23 +38,24 @@
             </a>
         </div>
     </nav>
-    <h2> A propos de moi </h2>
+    <h2 id="h2"> A propos de moi </h2>
     <a class="A_propos_de_moi">
         <p> Hello World ! Je suis Jayson Decubber jeune diplômer d'un bac + 2 actuelemnt la rechercher d'une alternance
             en
             tant
             que devellopeur Full staks pour <br> poursuivre les étude vers un bac + 3 et obtenir mon prochain diplôme
+            est aquerrire des experiance professionel
         </p>
     </a>
     <div class="bloc">
         <div>
-            <h3>Experience Professionel </h3>
+            <h3 id="h3"> Mes diplôme </h3>
             <a class="experience">
                 <p>dffkvdfoiboijdfboijf</p>
             </a>
         </div>
         <div>
-            <h4> Scolarité </h4>
+            <h4 id="h4"> Mes experiance professionel </h4>
             <a class="scolaire">
                 <p> sdjvniifsvdhngfdkns </p>
             </a>
@@ -76,7 +63,7 @@
     </div>
     <div class="bloc">
         <div>
-            <h5> Mes Compétence </h5>
+            <h5 id="h5"> Mes Compétence </h5>
             <a class="compétence">
                 <p> sdknnxkjnviuxncvfid </p>
             </a>
@@ -84,7 +71,7 @@
     </div>
     <div class="bloc">
         <div>
-            <h6> Loisir </h6>
+            <h6 id="h6"> Loisir </h6>
             <a class="loisir">
                 <p> sdknnxkjnviuxncvfid </p>
             </a>
@@ -94,12 +81,28 @@
         <a class="fin">
             <p> Au plaisir de vous recontacter </p>
         </a>
-        <a href="" class="Mail-footer">
-            <p>Decubberjayson@gmail.com</p>
+        <div>
+            <a href="#" id="openModal" class="Mail-footer">Decubberjayson@gmail.com</a>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <form id="emailForm">
+                    <label for="to">Destinataire :</label><br>
+                    <input type="email" id="to" name="to" placeholder="Adresse e-mail du destinataire"><br>
+                    <label for="subject">Sujet :</label><br>
+                    <input type="text" id="subject" name="subject" placeholder="Sujet de l'e-mail"><br>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message"></textarea><br>
+                    <input id="clik" type="submit" value="Envoyer">
+                </form>
+                <i id="closeModal" class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <a href="tel+330763880395 " class="Tel"><p> Cliquer pour appeler </p>
         </a>
-        <a href="" class="Tel-footer">
-            <p> 12.05.54.56.50 </p>
-        </a>
+        <a class="Telpc" ><p>07 63 88 03 95</p></a>
     </div>
     <footer>
         <p class=" Copyrigth"> ©-2023-Jayson-Decubber </p>

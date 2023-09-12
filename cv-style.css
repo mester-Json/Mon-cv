@@ -12,17 +12,17 @@ nav {
 
 .img {
     background-image: url(./img/Ordinateur.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
     background-size: cover;
-    background-size: contain;
-    margin-top: 44px;
+    border: 2px solid white;
+    margin-top: 22px;
     width: 1400px;
     height: 704px;
-    display: flex;
-    position: relative;
+    display: block;
 }
 
 .A-propos-de-moi {
+    padding-top: 20px;
     padding-left: 100px;
     font-size: 20px;
     block-size: 0;
@@ -30,13 +30,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     display: inline-block;
-}
-
-.A-propos-de-moi:hover {
-    color: black;
+    cursor: help;
 }
 
 .Experience {
+    padding-top: 20px;
     padding-left: 100px;
     font-size: 20px;
     block-size: 0;
@@ -44,13 +42,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     display: inline-block;
-}
-
-.Experience:hover {
-    color: rgb(0, 0, 0);
+    cursor: help;
 }
 
 .Scolaire {
+    padding-top: 20px;
     padding-left: 100px;
     font-size: 20px;
     block-size: 0;
@@ -58,14 +54,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     display: inline-block;
+    cursor: help;
 }
-
-.Scolaire:hover {
-    color: black;
-}
-
 
 .Compétence {
+    padding-top: 20px;
     padding-left: 100px;
     font-size: 20px;
     block-size: 0;
@@ -73,13 +66,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     display: inline-block;
-}
-
-.Compétence:hover {
-    color: black;
+    cursor: help;
 }
 
 .Loisir {
+    padding-top: 20px;
     padding-left: 100px;
     font-size: 20px;
     block-size: 0;
@@ -87,10 +78,7 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     display: inline-block;
-}
-
-.Loisir:hover {
-    color: black;
+    cursor: help;
 }
 
 /*.My_Pictures {
@@ -99,59 +87,22 @@ nav {
     border-radius: 90% ;
     border: 3px solid black;
     display: flex;
-}
-
-.Nom {
-    margin-left: 1550px;
-    padding-right: 100px;
-    text-decoration: none;
-    justify-content: right;
-    display: flex;
-}
-
-.Tel {
-    margin-left: 1550px;
-    padding-right: 110px;
-    text-decoration: none;
-    justify-content: right;
-    display: flex
-}
-
-.Mail {
-    margin-left: 1550px;
-    padding-right: 70px;
-    text-decoration: none;
-    justify-content: right;
-    display: flex
-}
-
-.Ville {
-    margin-left: 1550px;
-    padding-right: 100px;
-    text-decoration: none;
-    justify-content: right;
-    display: flex
-}
-
-.Github {
-    margin-left: 1550px;
-    padding-right: 70px;
-    justify-content: right;
-    display: flex;
 } */
+
+
 
 h1 {
     color: rgb(255, 255, 255);
-    padding-top: 250px;
-    padding-left: 150px;
+    margin-top: 250px;
+    margin-left: 150px;
     font-size: 50px;
     position: absolute;
 }
 
 .Nom_titles {
     color: rgb(255, 255, 255);
-    padding-top: 300px;
-    padding-left: 150px;
+    margin-top: 250px;
+    margin-left: 160px;
     font-size: 50px;
     block-size: 0;
     position: absolute;
@@ -159,8 +110,8 @@ h1 {
 
 .titles{
     color: rgb(255, 255, 255);
-    padding-top: 350px;
-    padding-left: 150px;
+    margin-top: 300px;
+    margin-left: 170px;
     font-size: 50px;
     block-size: 0;
     position: absolute;
@@ -170,14 +121,14 @@ h2 {
     color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20%;
+    margin-left: 20%;
     display: flex;
 }
 
 .A_propos_de_moi {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20%;
+    margin-left: 20%;
     color: black;
     text-decoration: none;
     display: flex;
@@ -194,8 +145,8 @@ h3 {
     color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 380px;
-    padding-top: 10px;
+    margin-left: 380px;
+    margin-top: 10px;
     display: inline-flex;
 }
 
@@ -203,18 +154,18 @@ h4 {
     color:#102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 200px;
+    margin-left: 200px;
     display: inline-flex;
 }
 
 .experience {
-    padding-left: 380px;
+    margin-left: 380px;
     font-size: 20px;
     display: flex;
 }
 
 .scolaire {
-    padding-left: 200px;
+    margin-left: 200px;
     font-size: 20px;
     display: flex;
 }
@@ -223,12 +174,12 @@ h5 {
     color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 380px;
+    margin-left: 380px;
     display: inline-flex;
 }
 
 .compétence {
-    padding-left: 380px;
+    margin-left: 380px;
     font-size: 20px;
     display: flex;
 }
@@ -237,12 +188,12 @@ h6 {
     color: #102B3F;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 380px;
+    margin-left: 380px;
     display: inline-flex;
 }
 
 .loisir {
-    padding-left: 380px;
+    margin-left: 380px;
     font-size: 20px;
     display: flex;
 }
@@ -251,34 +202,119 @@ h6 {
 .fin {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20%;
-    color: black;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
     display: inline-block;
 }
 
+.bloc-footer {
+    background-color: #102B3F;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%); 
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    position: relative; 
+}
+
+/* Styles pour le lien */
 .Mail-footer {
-    padding-left: 500px;
     font-size: 20px;
-    display: inline-block;
+    margin-left: 1500px;
+    cursor: context-menu;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-.Tel-footer {
-    padding-top: 90px;
-    padding-left: 50px;
+/* Styles pour le formulaire */
+#emailForm {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    max-width: 90%;
+    max-height: 200px;
+    min-width: 50%;
+    min-height: 10px;
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le bouton "Fermer" */
+#closeModal {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute; 
+    top: 15px; 
+    right: 15px; 
+}
+
+.Tel {
+    margin-left: 1500px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: none;
+}
+
+.Telpc {
+    color: white;
+    margin-left: 1500px;
+    margin-top: 10px;
     font-size: 20px;
     display: inline-block;
 }
 
 .Copyrigth {
-    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
     margin-left: 45%;
     display: block;
 }
 
 footer {
     width: auto;
-    height: 50px;
-    background-color: #102B3F;
+    height: 30px;
+    background-color: #ffffff;
     bottom: 0%;
     display: flex;
 }
