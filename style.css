@@ -24,7 +24,19 @@ nav {
     margin-left: 0px;
     width: 1400px;
     height: 704px;
+    animation: test 1s cubic-bezier(0.7, 0, 0.84, 0) 1s 1 normal both;
     display: flex;
+}
+
+
+@keyframes test {
+	0% {
+		background-position: 50% 0%;
+	}
+
+	100% {
+		background-position: 50% 100%;
+	}
 }
 
 .A-propos-de-moi {
@@ -112,6 +124,35 @@ nav {
     text-decoration: none;
     display: flex;
 }
+
+.fa-phone {
+    margin-top: 18px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fa-phone:hover {
+
+    animation: shake 0.5s;
+  
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 h1 {
     color: rgb(255, 255, 255);
@@ -208,7 +249,7 @@ h5 {
     display: inline-flex;
 }
 
-.Html , .Css , .Js , .Php , .Sql {
+.Html , .Css , .Js , .Php , .Sql, .Python {
     margin-left: 370px;
     font-size: 20px;
     margin-top: 5px ;
@@ -267,14 +308,13 @@ h6 {
 
 .fin {
     font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20%;
     align-items: center;
     justify-content: center;
     height: 70px;
     width: 570px;
-    border: 1px solid #102B3F ;
-    background-color: #ffffff;
+    border-top: 1px solid #102B3F ;
+    background-color: white;
     color: #102B3F;
     display: flex;
 }
