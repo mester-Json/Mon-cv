@@ -3,6 +3,10 @@ body {
     background-color: white;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 nav {
     background-color: #102B3F;
     width: auto;
@@ -246,23 +250,37 @@ h6 {
     display: inline-flex;
 }
 
-.loisir {
-    margin-left: 380px;
-    font-size: 20px;
+.fas {
+    font-size: 30px;
+    margin-left: 370px;
     display: flex;
 }
 
+.text {
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 0px ;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
 
 .fin {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20%;
-    color: rgb(255, 255, 255);
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 570px;
+    border: 1px solid #102B3F ;
+    background-color: #ffffff;
+    color: #102B3F;
+    display: flex;
 }
 
 .bloc-footer {
-    background-color: #102B3F;
+    background-image: url(./img/endless-constellation.svg);
 }
 
 .modal {
