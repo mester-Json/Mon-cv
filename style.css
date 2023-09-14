@@ -179,15 +179,19 @@ h4 {
     display: inline-flex;
 }
 
-.experience {
-    margin-left: 380px;
+.bac2 , .Cap , .bac {
+    margin-left: 370px;
     font-size: 20px;
+    justify-content: center;
+    text-align: center;
     display: flex;
 }
 
-.scolaire {
+.mairie , .mission , .casse {
     margin-left: 200px;
     font-size: 20px;
+    justify-content: center;
+    text-align: center;
     display: flex;
 }
 
@@ -200,10 +204,37 @@ h5 {
     display: inline-flex;
 }
 
-.compétence {
-    margin-left: 380px;
+.Html , .Css , .Js , .Php , .Sql {
+    margin-left: 370px;
     font-size: 20px;
+    margin-top: 5px ;
+    justify-content: center;
+    text-align: center;
     display: flex;
+} 
+
+.progress {
+    height: 25px;
+    width: 250px;
+    background-color: #b8b8b8;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 200px;
+    background-color: #102B3F;
+    color: #ffffff;
+    line-height: 15px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h6 {
