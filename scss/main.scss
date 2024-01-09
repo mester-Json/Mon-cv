@@ -1,13 +1,33 @@
-@import "./base.scss" ;
+// Vue Pc
 
-@import "./layout/nav.scss" ;
+@import "./base.scss";
 
-@import "./layout/footer.scss" ;
+@import "./layout/nav.scss";
 
-@import "./layout/modale.scss" ;
+@import "./layout/footer.scss";
 
-@import "./layout/img_nav.scss" ;
+@import "./layout/modale.scss";
 
-@import "./layout/persso.scss" ;
+@import "./layout/img_nav.scss";
 
-@import "./layout/information.scss" ;
+@import "./layout/persso.scss";
+
+@import "./layout/information.scss";
+
+////////////////////////////////////////////
+
+// Vue mobile
+
+@import "./responsive/footer.scss";
+
+@import "./responsive/img_nav.scss";
+
+@import "./responsive/information.scss";
+
+@import "./responsive/modale.scss";
+
+@import "./responsive/nav.scss";
+
+@import "./responsive/persso.scss";
+
+////////////////////////////////////////////
