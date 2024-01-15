@@ -7,22 +7,12 @@ body {
     display: none;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    padding: 20px;
-}
-
 nav {
     background-color: #102B3F;
     width: auto;
     height: 790px;
     pointer-events: none;
     display: block;
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
 }
 
 .pc {
@@ -36,8 +26,17 @@ nav {
     height: 704px;
     animation: test 1s cubic-bezier(0.7, 0, 0.84, 0) 1s 1 normal both;
     display: flex;
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
+}
+
+
+@keyframes test {
+	0% {
+		background-position: 50% 0%;
+	}
+
+	100% {
+		background-position: 50% 100%;
+	}
 }
 
 .A-propos-de-moi {
@@ -51,8 +50,6 @@ nav {
     text-decoration: none;
     display: inline-block;
     cursor: help;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
 }
 
 .Experience {
@@ -66,8 +63,6 @@ nav {
     text-decoration: none;
     display: inline-block;
     cursor: help;
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
 }
 
 .Scolaire {
@@ -81,8 +76,6 @@ nav {
     text-decoration: none;
     display: inline-block;
     cursor: help;
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
 }
 
 .Compétence {
@@ -96,8 +89,6 @@ nav {
     text-decoration: none;
     display: inline-block;
     cursor: help;
-    grid-column: 1 / 2;
-    grid-row: 6 / 7;
 }
 
 .Loisir {
@@ -111,8 +102,6 @@ nav {
     text-decoration: none;
     display: inline-block;
     cursor: help;
-    grid-column: 1 / 2;
-    grid-row: 7 / 8;
 }
 
 .test {
@@ -123,8 +112,6 @@ nav {
     margin-left: 1650px;
     margin-bottom: 20px;
     display: flex;
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
 }
 
 .nom , .anniv , .tel , .mail , .adresse , .ville , .github  {
@@ -136,8 +123,6 @@ nav {
     justify-content: center;
     text-decoration: none;
     display: flex;
-    grid-column: 3 / 4;
-    grid-row: 4 / 5;
 }
 
 .fa-phone {
@@ -149,11 +134,13 @@ nav {
 }
 
 .fa-phone:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-}
 
-@keyframes shake {
+    animation: shake 0.5s;
+  
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
     20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -165,7 +152,7 @@ nav {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+  }
 
 h1 {
     color: rgb(255, 255, 255);
@@ -446,4 +433,4 @@ footer {
 
 /* * {
     border: 2px solid red;
-}
+} 
