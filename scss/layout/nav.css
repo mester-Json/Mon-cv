@@ -1,10 +1,12 @@
 @charset "UTF-8";
 nav {
-  background-color: #102B3F;
+  background-color: #102b3f;
   width: auto;
   height: 790px;
   pointer-events: none;
   display: block;
+  grid-column: 1/2;
+  grid-row: 1/3;
 }
 
 .A-propos-de-moi {
@@ -18,6 +20,8 @@ nav {
   text-decoration: none;
   display: inline-block;
   cursor: help;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
 .Experience {
@@ -31,6 +35,8 @@ nav {
   text-decoration: none;
   display: inline-block;
   cursor: help;
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 
 .Scolaire {
@@ -44,6 +50,8 @@ nav {
   text-decoration: none;
   display: inline-block;
   cursor: help;
+  grid-column: 1/2;
+  grid-row: 5/6;
 }
 
 .Compétence {
@@ -57,6 +65,8 @@ nav {
   text-decoration: none;
   display: inline-block;
   cursor: help;
+  grid-column: 1/2;
+  grid-row: 6/7;
 }
 
 .Loisir {
@@ -70,4 +80,6 @@ nav {
   text-decoration: none;
   display: inline-block;
   cursor: help;
+  grid-column: 1/2;
+  grid-row: 7/8;
 }/*# sourceMappingURL=nav.css.map */

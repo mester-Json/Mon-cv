@@ -1,4 +1,10 @@
-.nom, .anniv, .tel, .mail, .adresse, .ville, .github {
+.nom,
+.anniv,
+.tel,
+.mail,
+.adresse,
+.ville,
+.github {
   color: rgb(255, 255, 255);
   margin-left: 1600px;
   font-size: 18px;
@@ -7,6 +13,8 @@
   justify-content: center;
   text-decoration: none;
   display: flex;
+  grid-column: 3/4;
+  grid-row: 4/5;
 }
 
 .fa-phone {
@@ -65,4 +73,6 @@
   margin-left: 1650px;
   margin-bottom: 20px;
   display: flex;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }/*# sourceMappingURL=information.css.map */

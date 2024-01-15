@@ -45,10 +45,10 @@ h4 {
   display: inline-flex;
 }
 
-.formation,
 .bac2,
 .Cap,
-.bac {
+.bac,
+.formation {
   margin-left: 370px;
   font-size: 20px;
   justify-content: center;
