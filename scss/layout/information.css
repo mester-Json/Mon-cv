@@ -17,6 +17,10 @@
   grid-row: 4/5;
 }
 
+.github {
+  block-size: 0;
+}
+
 .fa-phone {
   margin-top: 18px;
   margin-right: 5px;
@@ -68,6 +72,7 @@
 .test {
   width: 100px;
   height: 100px;
+  border: 2px solid white;
   border-radius: 90%;
   margin-top: 5px;
   margin-left: 1650px;

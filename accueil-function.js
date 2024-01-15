@@ -19,7 +19,7 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
         console.log('E-mail envoyé avec succès!', response);
         // Vous pouvez ici ajouter du code pour afficher un message de confirmation
     }, function (error) {
-        console.log('Erreur lors de l\'envoi de l\'e-mail', error);
+        console.log('Erreur lors de l\'envoi de l\'e-mail', error)
         // Vous pouvez ici ajouter du code pour afficher un message d'erreur
     });
 });
@@ -48,7 +48,7 @@ window.addEventListener('click', (event) => {
 });
 
 // Ajouter un gestionnaire d'événement de soumission du formulaire
-emailForm.addEventListener('submit', function(event) {
+emailForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
     // Ici, vous pouvez ajouter le code nécessaire pour envoyer l'e-mail.
