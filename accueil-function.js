@@ -1,3 +1,5 @@
+import emailjs from 'emailjs-com';
+
 // Initialisation de Email.js avec vos identifiants API
 emailjs.init('SGbl2DwG5zNA_zMMo');
 
