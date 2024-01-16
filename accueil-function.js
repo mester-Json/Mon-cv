@@ -1,5 +1,5 @@
 // Initialisation de Email.js avec vos identifiants API
-emailjs.init('XjU4wG8jReDpbJ1MV');
+emailjs.init('SGbl2DwG5zNA_zMMo');
 
 // Gestion de la soumission du formulaire
 document.getElementById('emailForm').addEventListener('submit', function (event) {
