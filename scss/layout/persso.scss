@@ -53,6 +53,7 @@ h4 {
     display: flex;
 }
 
+.hyzen,
 .mairie,
 .mission,
 .casse {
@@ -69,7 +70,12 @@ h5 {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 380px;
     text-decoration: underline solid red;
-    display: inline-flex;
+    display: flex;
+}
+
+.technique {
+    margin-left: 379px;
+    display: flex;
 }
 
 .Html,
@@ -79,13 +85,16 @@ h5 {
 .Sql,
 .Python,
 .React,
-.Symfony {
-    margin-left: 370px;
-    font-size: 45px;
+.Symfony,
+.Debian,
+.Terminal {
+    margin-left: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
     justify-content: center;
     text-align: center;
-    display: flex;
+    display: inline-block;
 }
 
 .fa-html5 {
@@ -120,6 +129,14 @@ h5 {
     color: #000000;
 }
 
+.fa-debian {
+    color: #a80030;
+}
+
+.fa-terminal {
+    color: #000000;
+}
+
 .progress {
     height: 25px;
     width: 250px;
@@ -129,19 +146,6 @@ h5 {
     margin-left: 45px;
     font-size: 19px;
     display: flex;
-    align-items: center;
-}
-
-.progress-bar {
-    height: 100%;
-    width: 200px;
-    background-color: #102b3f;
-    color: #ffffff;
-    line-height: 15px;
-    border-radius: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 

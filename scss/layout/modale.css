@@ -63,7 +63,6 @@ input[type=submit]:hover {
   background-color: #0056b3;
 }
 
-/* Styles pour le bouton "Fermer" */
 #closeModal {
   background-color: #ff0000;
   color: white;

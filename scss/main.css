@@ -214,7 +214,6 @@ input[type=submit]:hover {
   background-color: #0056b3;
 }
 
-/* Styles pour le bouton "Fermer" */
 #closeModal {
   background-color: #ff0000;
   color: white;
@@ -246,25 +245,6 @@ input[type=submit]:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes changeBorderColor {
-  0% {
-    border-color: green;
-  }
-  50% {
-    border-color: red;
-  }
-  100% {
-    border-color: blue;
-  }
-}
-@keyframes test {
-  0% {
-    background-position: 50% 0%;
-  }
-  100% {
-    background-position: 50% 100%;
-  }
-}
 h1 {
   color: rgb(255, 255, 255);
   margin-top: 250px;
@@ -349,6 +329,7 @@ h4 {
   display: flex;
 }
 
+.hyzen,
 .mairie,
 .mission,
 .casse {
@@ -366,7 +347,12 @@ h5 {
   margin-left: 380px;
   -webkit-text-decoration: underline solid red;
           text-decoration: underline solid red;
-  display: inline-flex;
+  display: flex;
+}
+
+.technique {
+  margin-left: 379px;
+  display: flex;
 }
 
 .Html,
@@ -376,13 +362,16 @@ h5 {
 .Sql,
 .Python,
 .React,
-.Symfony {
-  margin-left: 370px;
-  font-size: 45px;
+.Symfony,
+.Debian,
+.Terminal {
+  margin-left: 15px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
   justify-content: center;
   text-align: center;
-  display: flex;
+  display: inline-block;
 }
 
 .fa-html5 {
@@ -417,6 +406,14 @@ h5 {
   color: #000000;
 }
 
+.fa-debian {
+  color: #a80030;
+}
+
+.fa-terminal {
+  color: #000000;
+}
+
 .progress {
   height: 25px;
   width: 250px;
@@ -426,19 +423,6 @@ h5 {
   margin-left: 45px;
   font-size: 19px;
   display: flex;
-  align-items: center;
-}
-
-.progress-bar {
-  height: 100%;
-  width: 200px;
-  background-color: #102b3f;
-  color: #ffffff;
-  line-height: 15px;
-  border-radius: 30px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -472,8 +456,7 @@ h6 {
 .tel,
 .mail,
 .adresse,
-.ville,
-.github {
+.ville {
   color: rgb(255, 255, 255);
   margin-left: 1600px;
   font-size: 18px;
@@ -486,8 +469,17 @@ h6 {
   grid-row: 4/5;
 }
 
-.github {
-  block-size: 0;
+.fa-github {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  margin-left: 1685px;
+  pointer-events: auto;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 4/5;
 }
 
 .fa-phone {

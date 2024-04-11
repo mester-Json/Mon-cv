@@ -3,8 +3,7 @@
 .tel,
 .mail,
 .adresse,
-.ville,
-.github {
+.ville {
   color: rgb(255, 255, 255);
   margin-left: 1600px;
   font-size: 18px;
@@ -17,8 +16,17 @@
   grid-row: 4 / 5;
 }
 
-.github {
-  block-size: 0;
+.fa-github {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  margin-left: 1685px;
+  pointer-events: auto;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
 }
 
 .fa-phone {
