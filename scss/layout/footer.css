@@ -52,4 +52,35 @@ footer {
 
 .bloc-footer {
   background-image: url(../img/endless-constellation.svg);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Tel {
+    border-bottom: 1px solid #102b3f;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 20%;
+    height: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-inline-start: 10px;
+    font-size: 18px;
+    display: block;
+  }
+  .Telpc {
+    display: none;
+  }
+  .Copyrigth {
+    margin-left: 40%;
+  }
+  .text {
+    margin-left: 0;
+  }
+  .fin {
+    font-size: 20px;
+    margin-left: 0;
+    width: 40%;
+    height: 50px;
+  }
 }/*# sourceMappingURL=footer.css.map */

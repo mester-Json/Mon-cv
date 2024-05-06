@@ -80,6 +80,7 @@ h5 {
 .technique {
   margin-left: 379px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Html,
@@ -96,9 +97,6 @@ h5 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 50px;
-  justify-content: center;
-  text-align: center;
-  display: inline-block;
 }
 
 .fa-html5 {
@@ -141,18 +139,6 @@ h5 {
   color: #000000;
 }
 
-.progress {
-  height: 25px;
-  width: 250px;
-  background-color: #b8b8b8;
-  border-radius: 30px;
-  margin-top: 20px;
-  margin-left: 45px;
-  font-size: 19px;
-  display: flex;
-  align-items: center;
-}
-
 h6 {
   color: #102b3f;
   font-size: 30px;
@@ -176,4 +162,130 @@ h6 {
   justify-content: center;
   text-align: center;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+    margin-left: 37%;
+  }
+  .A_propos_de_moi {
+    text-align: center;
+    margin-left: 0;
+  }
+  .bloc {
+    flex-direction: column;
+  }
+  h3 {
+    text-align: center;
+    margin-left: 40%;
+  }
+  h4 {
+    text-align: center;
+    margin-left: 28%;
+  }
+  .bac2,
+  .Cap,
+  .bac,
+  .formation {
+    margin-left: 0;
+  }
+  .hyzen,
+  .mairie,
+  .mission,
+  .casse {
+    margin-left: 0;
+  }
+  h5 {
+    margin-left: 35%;
+  }
+  .technique {
+    width: 390px;
+    margin-left: 27%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Html,
+  .Css,
+  .Js,
+  .Php,
+  .Sql,
+  .Python,
+  .React,
+  .Symfony,
+  .Debian,
+  .Terminal {
+    margin-left: 25px;
+  }
+  .progress {
+    margin-left: 10%;
+  }
+  h6 {
+    margin-left: 45%;
+  }
+  .fas {
+    text-align: center;
+  }
+  .text {
+    margin-left: auto;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    margin-left: 5%;
+  }
+  .A_propos_de_moi {
+    margin-left: 10px;
+  }
+  .bloc {
+    flex-direction: column;
+  }
+  h3 {
+    margin-left: 10px;
+  }
+  h4 {
+    margin-left: 10px;
+  }
+  .bac2,
+  .Cap,
+  .bac,
+  .formation {
+    display: block;
+  }
+  .hyzen,
+  .mairie,
+  .mission,
+  .casse {
+    margin-left: 10px;
+  }
+  h5 {
+    margin-left: 10px;
+  }
+  .technique {
+    margin-left: 10px;
+  }
+  .Html,
+  .Css,
+  .Js,
+  .Php,
+  .Sql,
+  .Python,
+  .React,
+  .Symfony,
+  .Debian,
+  .Terminal {
+    margin-left: 5px;
+  }
+  .progress {
+    margin-left: 10px;
+  }
+  h6 {
+    margin-left: 10px;
+  }
+  .fas {
+    margin-left: 10px;
+  }
+  .text {
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=persso.css.map */

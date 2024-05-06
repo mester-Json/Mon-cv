@@ -44,3 +44,23 @@ emailForm.addEventListener('submit', function (event) {
 
     modal.style.display = 'none';
 });
+
+
+///////
+/////// Menu burger
+///////
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('icon').addEventListener('click', function () {
+        let toggle = document.getElementById('toggle');
+        toggle.checked = !toggle.checked;
+        if (window.innerWidth > 768) {
+            if (toggle.checked) {
+                document.getElementById('elements').style.display = 'block';
+            }
+            else {
+                document.getElementById('elements').style.display = 'none';
+            }
+        }
+    });
+});
