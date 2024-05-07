@@ -54,28 +54,6 @@ footer {
     background-image: url(../img/endless-constellation.svg);
 }
 
-// Media queries for mobile devices
-// @media (max-width: 768px) {
-//     .Tel,
-//     .Telpc {
-//         margin-left: 0;
-//     }
-
-//     .Copyrigth {
-//         text-align: center;
-//     }
-
-//     .text {
-//         margin-left: 0;
-//     }
-
-//     .fin {
-//         font-size: 20px;
-//         margin-left: 0;
-//         width: 25%;
-//     }
-// }
-
 // Media queries for tablet devices
 @media (min-width: 768px) and (max-width: 1023px) {
     .Tel {
@@ -107,6 +85,36 @@ footer {
         font-size: 20px;
         margin-left: 0;
         width: 40%;
+        height: 50px;
+    }
+}
+
+// Media queries for mobile devices
+@media (max-width: 425px) {
+    .Tel {
+        display: block;
+        margin-left: 0;
+        background-color: white;
+        text-decoration: none;
+        width: 40%;
+    }
+
+    .Telpc {
+        display: none;
+    }
+
+    .Copyrigth {
+        margin-left: 35%;
+    }
+
+    .text {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .fin {
+        font-size: 18px;
+        width: 70%;
         height: 50px;
     }
 }

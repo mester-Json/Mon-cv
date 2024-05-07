@@ -83,4 +83,28 @@ footer {
     width: 40%;
     height: 50px;
   }
+}
+@media (max-width: 425px) {
+  .Tel {
+    display: block;
+    margin-left: 0;
+    background-color: white;
+    text-decoration: none;
+    width: 40%;
+  }
+  .Telpc {
+    display: none;
+  }
+  .Copyrigth {
+    margin-left: 35%;
+  }
+  .text {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .fin {
+    font-size: 18px;
+    width: 70%;
+    height: 50px;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -10,6 +10,11 @@
         left: 30%;
         position: fixed;
     }
+    @media (max-width: 425px) {
+        top: 70%;
+        left: 13%;
+        position: fixed;
+    }
 }
 
 .modal-content {
@@ -30,6 +35,9 @@
     text-decoration: none;
     @media (max-width: 768px) {
         margin-left: 450px;
+    }
+    @media (max-width: 425px) {
+        margin-left: 50px;
     }
 }
 

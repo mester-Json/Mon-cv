@@ -13,6 +13,13 @@
     position: fixed;
   }
 }
+@media (max-width: 425px) {
+  .modal {
+    top: 70%;
+    left: 13%;
+    position: fixed;
+  }
+}
 
 .modal-content {
   background-color: #fff;
@@ -34,6 +41,11 @@
 @media (max-width: 768px) {
   .Mail-footer {
     margin-left: 450px;
+  }
+}
+@media (max-width: 425px) {
+  .Mail-footer {
+    margin-left: 50px;
   }
 }
 

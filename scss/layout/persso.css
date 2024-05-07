@@ -232,19 +232,21 @@ h6 {
 }
 @media (max-width: 480px) {
   h2 {
-    margin-left: 5%;
+    margin-left: 25%;
   }
   .A_propos_de_moi {
+    text-align: center;
+    justify-content: center;
     margin-left: 10px;
   }
   .bloc {
     flex-direction: column;
   }
   h3 {
-    margin-left: 10px;
+    margin-left: 30%;
   }
   h4 {
-    margin-left: 10px;
+    margin-left: 10%;
   }
   .bac2,
   .Cap,
@@ -259,7 +261,7 @@ h6 {
     margin-left: 10px;
   }
   h5 {
-    margin-left: 10px;
+    margin-left: 20%;
   }
   .technique {
     margin-left: 10px;
@@ -274,16 +276,18 @@ h6 {
   .Symfony,
   .Debian,
   .Terminal {
-    margin-left: 5px;
+    margin-left: 28px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .progress {
     margin-left: 10px;
   }
   h6 {
-    margin-left: 10px;
+    margin-left: 40%;
   }
   .fas {
-    margin-left: 10px;
+    margin-left: 50px;
   }
   .text {
     margin-left: 10px;
