@@ -37,16 +37,15 @@ nav {
   grid-column: 1/2;
   grid-row: auto;
 }
-#icon {
-  display: none;
-}
 @media (max-width: 768px) {
-  #icon {
-    display: block;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
   }
 }/*# sourceMappingURL=nav.css.map */

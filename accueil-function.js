@@ -49,18 +49,27 @@ emailForm.addEventListener('submit', function (event) {
 ///////
 /////// Menu burger
 ///////
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li');
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('icon').addEventListener('click', function () {
-        let toggle = document.getElementById('toggle');
-        toggle.checked = !toggle.checked;
-        if (window.innerWidth > 768) {
-            if (toggle.checked) {
-                document.getElementById('elements').style.display = 'block';
+    burger.addEventListener('click', () => {
+        // Toggle Nav
+        nav.classList.toggle('nav-active');
+
+        // Animate Links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = '';
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
             }
-            else {
-                document.getElementById('elements').style.display = 'none';
-            }
-        }
+        });
+
+        // Burger Animation
+        burger.classList.toggle('toggle');
     });
-});
+}
+
+navSlide();

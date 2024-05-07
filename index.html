@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/main.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -31,47 +31,43 @@
         <a href="#h6" class="Loisir">
             <p> Loisir </p>
         </a>
-        <input type="checkbox" id="toggle" style="display: none;">
-        <label for="toggle">
-            <i class="fa-solid fa-bars" id="icon"></i>
-        </label>
-        <div id="elements" style="display: none;">
-            <img src="./img/1690303954048.jpeg" alt="La photot de moi" class="test">
-            <a class="nom">
-                <p>
-                    Jayson Decubber
-                </p>
-            </a>
-            <a class="anniv">
-                <p>
-                    05 / 08 / 2002
-                </p>
-            </a>
-            <a class="tel">
-                <i class="fa-solid fa-phone"></i>
-                <p>
-                    : 07.63.88.03.95
-                </p>
-            </a>
-            <a class="mail">
-                <p>
-                    Decubberjayson@gmail.com
-                </p>
-            </a>
-            <a class="adresse">
-                <p>
-                    D15 rue ste Cécile Rds Anatole France Apt 3
-                </p>
-            </a>
-            <a class="ville">
-                <p>
-                    62420 / Billy-Montigny
-                </p>
-            </a>
-            <a class="github" target="_blank" href="https://github.com/mester-json">
-                <i class="fa-brands fa-github"></i>
-            </a>
+
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
+        <!-- <ul class="nav-links">
+            <li>
+                <div class="DivPersso">
+                    <img src="./img/1690303954048.jpeg" alt="La photot de moi" class="test">
+                    <a class="nom">
+                        <p>Jayson Decubber</p>
+                    </a>
+                    <a class="anniv">
+                        <p>05 / 08 / 2002</p>
+                    </a>
+                    <a class="tel">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>: 07.63.88.03.95</p>
+                    </a>
+                    <a class="mail">
+                        <p>Decubberjayson@gmail.com</p>
+                    </a>
+                    <a class="adresse">
+                        <p>D15 rue ste Cécile Rds Anatole France Apt 3</p>
+                    </a>
+                    <a class="ville">
+                        <p>62420 / Billy-Montigny</p>
+                    </a>
+                    <a class="github" target="_blank" href="https://github.com/mester-json">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </li>
+            <!-- Ajoutez le contenu de la div "DivPersso" dans chaque "li" si nécessaire*
+        </ul> -->
+
         <div class="pc">
             <h1> Hello World ! </h1>
             <a class="Nom_titles">
@@ -241,7 +237,7 @@
             <p>Au plaisir de vous recontacter</p>
         </a>
         <div>
-            <a href="#" id="openModal" class="Mail-footer">Decubberjayson@gmail.com</a>
+            <a id="openModal" class="Mail-footer">Decubberjayson@gmail.com</a>
         </div>
 
         <!-- Modal -->

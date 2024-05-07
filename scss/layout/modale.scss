@@ -5,6 +5,11 @@
     left: 50%;
     z-index: 1;
     transform: translate(-50%, -50%);
+    @media (max-width: 768px) {
+        top: 70%;
+        left: 30%;
+        position: fixed;
+    }
 }
 
 .modal-content {
@@ -23,6 +28,9 @@
     cursor: context-menu;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    @media (max-width: 768px) {
+        margin-left: 450px;
+    }
 }
 
 /* Styles pour le formulaire */

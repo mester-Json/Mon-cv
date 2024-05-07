@@ -6,6 +6,13 @@
   z-index: 1;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 768px) {
+  .modal {
+    top: 70%;
+    left: 30%;
+    position: fixed;
+  }
+}
 
 .modal-content {
   background-color: #fff;
@@ -23,6 +30,11 @@
   cursor: context-menu;
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .Mail-footer {
+    margin-left: 450px;
+  }
 }
 
 /* Styles pour le formulaire */

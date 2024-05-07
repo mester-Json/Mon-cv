@@ -35,17 +35,62 @@ nav {
     grid-row: auto;
 
     @media (max-width: 768px) {
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 18px;
     }
 }
 
-#icon {
-    display: none;
-    @media (max-width: 768px) {
-        display: block;
-        margin-top: 20px;
-        margin-left: 20px;
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-    }
-}
+// .burger {
+//     display: none;
+// }
+
+// .nav-links {
+//     display: flex;
+//     justify-content: space-around;
+//     list-style: none;
+// }
+
+// @media screen and (min-width: 768px) {
+//     .burger {
+//         display: block;
+//     }
+
+//     .nav-links {
+//         position: absolute;
+//         right: 0px;
+//         height: 92vh;
+//         top: 8vh;
+//         background-color: #5b5e6d;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 50%;
+//         transform: translateX(100%);
+//         transition: transform 0.5s ease-in-out;
+//     }
+
+//     .nav-links li {
+//         opacity: 0;
+//     }
+// }
+
+// .nav-active {
+//     transform: translateX(0%);
+// }
+
+// .nav-links li.fade {
+//     animation: navLinkFade 0.5s ease forwards 0.5s;
+// }
+
+// @keyframes navLinkFade {
+//     from {
+//         opacity: 0;
+//         transform: translateX(50px);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: translateX(0px);
+//     }
+// }
