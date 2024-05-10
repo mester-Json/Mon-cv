@@ -42,7 +42,27 @@ nav {
   grid-column: 1/2;
   grid-row: auto;
 }
-@media (miin-width: 768px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    padding-left: 125px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    padding-left: 55px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
   .A-propos-de-moi,
   .Experience,
   .Scolaire,
@@ -52,6 +72,7 @@ nav {
     margin-top: 10px;
     margin-left: 15px;
     font-size: 18px;
+    justify-content: space-between;
   }
 }
 @media (max-width: 425px) {
@@ -120,43 +141,15 @@ footer {
   background-image: url(../img/endless-constellation.svg);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 728px) and (max-width: 1440px) {
   .Tel {
-    border-bottom: 1px solid #102b3f;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    width: 20%;
-    height: 20px;
-    margin-left: 0;
-    margin-bottom: 20px;
-    padding-inline-start: 10px;
-    font-size: 18px;
-    display: block;
-  }
-  .Telpc {
     display: none;
   }
-  .Copyrigth {
-    margin-left: 40%;
-  }
-  .text {
-    margin-left: 0;
-  }
-  .fin {
-    font-size: 20px;
-    margin-left: 0;
-    width: 40%;
-    height: 50px;
-  }
-}
-@media (max-width: 425px) and (min-width: 320px) {
-  .Tel {
+  .Telpc {
     border-bottom: 1px solid #102b3f;
     background-color: white;
     color: rgb(0, 0, 0);
-    text-decoration: none;
-    width: 50%;
+    max-width: 20%;
     height: 20px;
     margin-left: 0;
     margin-right: auto;
@@ -164,9 +157,6 @@ footer {
     padding-inline-start: 10px;
     font-size: 18px;
     display: block;
-  }
-  .Telpc {
-    display: none;
   }
   .Copyrigth {
     margin-left: auto;
@@ -188,13 +178,13 @@ footer {
     margin-bottom: 10px;
   }
 }
-@media (min-width: 728px) and (max-width: 1440px) {
+@media (max-width: 425px) and (min-width: 320px) {
   .Tel {
     border-bottom: 1px solid #102b3f;
     background-color: white;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    width: 30%;
+    width: 50%;
     height: 20px;
     margin-left: 0;
     margin-right: auto;
@@ -349,16 +339,46 @@ input[type=submit]:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .pc {
     background-image: url(../img/Ordinateur.png);
-    width: auto;
-    height: 350px;
+    width: 1050px;
+    height: 550px;
     margin-top: 50px;
     grid-column: 2/4;
     grid-row: 1/3;
     background-size: cover;
     background-position: 5%;
+    justify-content: center;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .pc {
+    background-image: url(../img/Ordinateur.png);
+    width: 750px;
+    height: 550px;
+    margin-top: 50px;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-size: cover;
+    background-position: 5%;
+    justify-content: center;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .pc {
+    background-image: url(../img/Ordinateur.png);
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-size: cover;
+    background-position: 5%;
+    justify-content: center;
+    margin-right: auto;
   }
 }
 @media (max-width: 425px) and (min-width: 320px) {
@@ -381,7 +401,7 @@ h1 {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   h1 {
-    margin-top: 85px;
+    margin-top: 200px;
     margin-left: 30px;
     font-size: 50px;
   }
@@ -402,7 +422,7 @@ h1 {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .Nom_titles {
-    margin-top: 100px;
+    margin-top: 210px;
     margin-left: 30px;
     font-size: 40px;
   }
@@ -423,7 +443,7 @@ h1 {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .titles {
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 30px;
     font-size: 40px;
   }
@@ -749,7 +769,19 @@ h6 {
   grid-column: 3/4;
   grid-row: 4/5;
 }
-@media (min-width: 320px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
+  .nom,
+  .anniv,
+  .tel,
+  .mail,
+  .adresse,
+  .ville {
+    margin-left: 780px;
+    margin-right: 0px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
   .nom,
   .anniv,
   .tel,
@@ -774,7 +806,14 @@ h6 {
   grid-column: 3/4;
   grid-row: 4/5;
 }
-@media (min-width: 320px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
+  .fa-github {
+    margin-left: 875px;
+    margin-right: 0px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
   .fa-github {
     margin-left: 45%;
     margin-right: auto;
@@ -804,10 +843,41 @@ h6 {
   grid-column: 3/4;
   grid-row: 3/4;
 }
-@media (min-width: 320px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
+  .test {
+    margin-left: 825px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
   .test {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .responssive {
+    margin-left: 650px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .responssive {
+    margin-left: 250px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .responssive {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .responssive {
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -33,7 +33,27 @@ nav {
   grid-column: 1/2;
   grid-row: auto;
 }
-@media (miin-width: 768px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    padding-left: 125px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    padding-left: 55px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
   .A-propos-de-moi,
   .Experience,
   .Scolaire,
@@ -43,6 +63,7 @@ nav {
     margin-top: 10px;
     margin-left: 15px;
     font-size: 18px;
+    justify-content: space-between;
   }
 }
 @media (max-width: 425px) {

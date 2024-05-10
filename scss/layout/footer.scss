@@ -54,48 +54,15 @@ footer {
     background-image: url(../img/endless-constellation.svg);
 }
 
-// Media queries for tablet devices
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 728px) and (max-width: 1440px) {
     .Tel {
-        border-bottom: 1px solid #102b3f;
-        background-color: white;
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        width: 20%;
-        height: 20px;
-        margin-left: 0;
-        margin-bottom: 20px;
-        padding-inline-start: 10px;
-        font-size: 18px;
-        display: block;
-    }
-    .Telpc {
         display: none;
     }
-
-    .Copyrigth {
-        margin-left: 40%;
-    }
-
-    .text {
-        margin-left: 0;
-    }
-
-    .fin {
-        font-size: 20px;
-        margin-left: 0;
-        width: 40%;
-        height: 50px;
-    }
-}
-
-@media (max-width: 425px) and (min-width: 320px) {
-    .Tel {
+    .Telpc {
         border-bottom: 1px solid #102b3f;
         background-color: white;
         color: rgb(0, 0, 0);
-        text-decoration: none;
-        width: 50%;
+        max-width: 20%;
         height: 20px;
         margin-left: 0;
         margin-right: auto;
@@ -103,10 +70,6 @@ footer {
         padding-inline-start: 10px;
         font-size: 18px;
         display: block;
-    }
-
-    .Telpc {
-        display: none;
     }
 
     .Copyrigth {
@@ -132,13 +95,13 @@ footer {
     }
 }
 
-@media (min-width: 728px) and (max-width: 1440px) {
+@media (max-width: 425px) and (min-width: 320px) {
     .Tel {
         border-bottom: 1px solid #102b3f;
         background-color: white;
         color: rgb(0, 0, 0);
         text-decoration: none;
-        width: 30%;
+        width: 50%;
         height: 20px;
         margin-left: 0;
         margin-right: auto;
@@ -147,6 +110,7 @@ footer {
         font-size: 18px;
         display: block;
     }
+
     .Telpc {
         display: none;
     }

@@ -14,7 +14,12 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
-  @media (min-width: 320px) and (max-width: 1440px) {
+  @media (min-width: 768px) and (max-width: 1440px) {
+    margin-left: 780px;
+    margin-right: 0px;
+    font-size: 18px;
+  }
+  @media (min-width: 320px) and (max-width: 425px) {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
@@ -32,7 +37,12 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
-  @media (min-width: 320px) and (max-width: 1440px) {
+  @media (min-width: 768px) and (max-width: 1440px) {
+    margin-left: 875px;
+    margin-right: 0px;
+    font-size: 25px;
+  }
+  @media (min-width: 320px) and (max-width: 425px) {
     margin-left: 45%;
     margin-right: auto;
     font-size: 35px;
@@ -60,9 +70,32 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 3 / 4;
-  @media (min-width: 320px) and (max-width: 1440px) {
+  @media (min-width: 768px) and (max-width: 1440px) {
+    margin-left: 825px;
+    margin-right: 20px;
+  }
+  @media (min-width: 320px) and (max-width: 425px) {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+  }
+}
+
+.responssive {
+  @media (max-width: 1440px) {
+    margin-left: 650px;
+    margin-right: auto;
+  }
+  @media (max-width: 1024px) {
+    margin-left: 250px;
+    margin-right: auto;
+  }
+  @media (max-width: 768px) {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  @media (min-width: 320px) and (max-width: 425px) {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

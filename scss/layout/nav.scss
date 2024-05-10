@@ -31,73 +31,22 @@ nav {
     grid-column: 1 / 2;
     grid-row: auto;
 
-    @media (miin-width: 768px) and (max-width: 1440px) {
+    @media (max-width: 1440px) {
+        padding-left: 125px;
+        margin-right: auto;
+    }
+    @media (max-width: 1024px) {
+        padding-left: 55px;
+        margin-right: auto;
+    }
+    @media (max-width: 768px) {
         padding-left: 10px;
         margin-top: 10px;
         margin-left: 15px;
         font-size: 18px;
+        justify-content: space-between;
     }
     @media (max-width: 425px) {
-        // display: flex;
-        // flex-wrap: wrap;
-        // font-size: 18px;
-        // margin-top: 25px;
-        // margin-left: 10px;
-        // padding-left: 0;
-        // text-decoration: underline solid red;
         display: none;
     }
 }
-
-// .burger {
-//     display: none;
-// }
-
-// .nav-links {
-//     display: flex;
-//     justify-content: space-around;
-//     list-style: none;
-// }
-
-// @media screen and (min-width: 768px) {
-//     .burger {
-//         display: block;
-//     }
-
-//     .nav-links {
-//         position: absolute;
-//         right: 0px;
-//         height: 92vh;
-//         top: 8vh;
-//         background-color: #5b5e6d;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         width: 50%;
-//         transform: translateX(100%);
-//         transition: transform 0.5s ease-in-out;
-//     }
-
-//     .nav-links li {
-//         opacity: 0;
-//     }
-// }
-
-// .nav-active {
-//     transform: translateX(0%);
-// }
-
-// .nav-links li.fade {
-//     animation: navLinkFade 0.5s ease forwards 0.5s;
-// }
-
-// @keyframes navLinkFade {
-//     from {
-//         opacity: 0;
-//         transform: translateX(50px);
-//     }
-//     to {
-//         opacity: 1;
-//         transform: translateX(0px);
-//     }
-// }
