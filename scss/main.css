@@ -17,7 +17,7 @@ nav {
   grid-column: 1/2;
   grid-row: 1/3;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   nav {
     width: auto;
     height: auto;
@@ -48,7 +48,7 @@ nav {
   grid-column: 1/2;
   grid-row: auto;
 }
-@media (max-width: 768px) {
+@media (miin-width: 768px) and (max-width: 1440px) {
   .A-propos-de-moi,
   .Experience,
   .Scolaire,
@@ -185,6 +185,44 @@ footer {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 728px) and (max-width: 1440px) {
+  .Tel {
+    border-bottom: 1px solid #102b3f;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 30%;
+    height: 20px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-inline-start: 10px;
+    font-size: 18px;
+    display: block;
+  }
+  .Telpc {
+    display: none;
+  }
+  .Copyrigth {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .fin {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
 .modal {
   display: none;
   position: fixed;
@@ -225,9 +263,11 @@ footer {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .Mail-footer {
-    margin-left: 450px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 @media (max-width: 425px) {
@@ -306,7 +346,7 @@ input[type=submit]:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .pc {
     background-image: url(../img/Ordinateur.png);
     width: auto;
@@ -314,6 +354,8 @@ input[type=submit]:hover {
     margin-top: 50px;
     grid-column: 2/4;
     grid-row: 1/3;
+    background-size: cover;
+    background-position: 5%;
   }
 }
 
@@ -324,7 +366,7 @@ h1 {
   font-size: 50px;
   position: absolute;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   h1 {
     margin-top: 85px;
     margin-left: 30px;
@@ -340,7 +382,7 @@ h1 {
   block-size: 0;
   position: absolute;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .Nom_titles {
     margin-top: 100px;
     margin-left: 30px;
@@ -356,7 +398,7 @@ h1 {
   block-size: 0;
   position: absolute;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .titles {
     margin-top: 150px;
     margin-left: 30px;
@@ -596,6 +638,72 @@ h6 {
     display: flex;
   }
 }
+@media (min-width: 728px) and (max-width: 1440px) {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .A_propos_de_moi,
+  .bloc,
+  .bac2,
+  .Cap,
+  .bac,
+  .formation,
+  .hyzen,
+  .mairie,
+  .mission,
+  .casse,
+  .technique,
+  .fas,
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .bloc {
+    display: flex;
+    flex-direction: column;
+  }
+  .bloc2,
+  .bloc3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Html,
+  .Css,
+  .Js,
+  .Php,
+  .Sql,
+  .Python,
+  .React,
+  .Symfony,
+  .Debian,
+  .Terminal {
+    display: flex;
+    flex-direction: wrap;
+    font-size: 45px;
+  }
+  .fas {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 20px;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+}
 .nom,
 .anniv,
 .tel,
@@ -674,14 +782,9 @@ h6 {
 }
 
 .DivPersso {
-  display: none;
+  display: block;
 }
-@media (max-width: 768px) {
-  .DivPersso {
-    display: none;
-  }
-}
-@media (max-width: 425px) {
+@media (max-width: 1440px) and (min-width: 320px) {
   .DivPersso {
     display: none;
   }

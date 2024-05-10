@@ -242,3 +242,75 @@ h6 {
         display: flex;
     }
 }
+
+@media (min-width: 728px) and (max-width: 1440px) {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .A_propos_de_moi,
+    .bloc,
+    .bac2,
+    .Cap,
+    .bac,
+    .formation,
+    .hyzen,
+    .mairie,
+    .mission,
+    .casse,
+    .technique,
+    .fas,
+    .text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bloc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc2,
+    .bloc3 {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Html,
+    .Css,
+    .Js,
+    .Php,
+    .Sql,
+    .Python,
+    .React,
+    .Symfony,
+    .Debian,
+    .Terminal {
+        display: flex;
+        flex-direction: wrap;
+        font-size: 45px;
+    }
+
+    .fas {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-top: 0px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+}

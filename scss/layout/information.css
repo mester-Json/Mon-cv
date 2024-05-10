@@ -76,14 +76,9 @@
 }
 
 .DivPersso {
-  display: none;
+  display: block;
 }
-@media (max-width: 768px) {
-  .DivPersso {
-    display: none;
-  }
-}
-@media (max-width: 425px) {
+@media (max-width: 1440px) and (min-width: 320px) {
   .DivPersso {
     display: none;
   }

@@ -33,8 +33,10 @@
     cursor: context-menu;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    @media (max-width: 768px) {
-        margin-left: 450px;
+    @media (min-width: 768px) and (max-width: 1440px) {
+        text-align: center;
+        margin-left: 0;
+        margin-right: auto;
     }
     @media (max-width: 425px) {
         text-align: center;

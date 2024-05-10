@@ -131,3 +131,45 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+@media (min-width: 728px) and (max-width: 1440px) {
+    .Tel {
+        border-bottom: 1px solid #102b3f;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        width: 30%;
+        height: 20px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding-inline-start: 10px;
+        font-size: 18px;
+        display: block;
+    }
+    .Telpc {
+        display: none;
+    }
+
+    .Copyrigth {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .text {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fin {
+        font-size: 18px;
+        width: auto;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+}
