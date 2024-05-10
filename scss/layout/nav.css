@@ -8,13 +8,7 @@ nav {
   grid-column: 1/2;
   grid-row: 1/3;
 }
-@media (min-width: 768px) and (max-width: 1440px) {
-  nav {
-    width: auto;
-    height: auto;
-  }
-}
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   nav {
     width: auto;
     height: auto;
@@ -49,5 +43,14 @@ nav {
     margin-top: 10px;
     margin-left: 15px;
     font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .A-propos-de-moi,
+  .Experience,
+  .Scolaire,
+  .Compétence,
+  .Loisir {
+    display: none;
   }
 }/*# sourceMappingURL=nav.css.map */

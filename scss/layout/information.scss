@@ -14,9 +14,10 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
-
-  @media (max-width: 768px) {
-    display: none;
+  @media (min-width: 320px) and (max-width: 1440px) {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
   }
 }
 
@@ -31,8 +32,12 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
-  @media (max-width: 768px) {
-    display: none;
+  @media (min-width: 320px) and (max-width: 1440px) {
+    margin-left: 45%;
+    margin-right: auto;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -42,9 +47,6 @@
   text-align: center;
   justify-content: center;
   display: flex;
-  @media (max-width: 768px) {
-    display: none;
-  }
 }
 
 .test {
@@ -58,14 +60,9 @@
   display: flex;
   grid-column: 3 / 4;
   grid-row: 3 / 4;
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-
-.DivPersso {
-  display: block;
-  @media (max-width: 1440px) and (min-width: 320px) {
-    display: none;
+  @media (min-width: 320px) and (max-width: 1440px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
   }
 }

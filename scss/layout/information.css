@@ -15,14 +15,16 @@
   grid-column: 3/4;
   grid-row: 4/5;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .nom,
   .anniv,
   .tel,
   .mail,
   .adresse,
   .ville {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
   }
 }
 
@@ -38,9 +40,13 @@
   grid-column: 3/4;
   grid-row: 4/5;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .fa-github {
-    display: none;
+    margin-left: 45%;
+    margin-right: auto;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -50,11 +56,6 @@
   text-align: center;
   justify-content: center;
   display: flex;
-}
-@media (max-width: 768px) {
-  .fa-phone {
-    display: none;
-  }
 }
 
 .test {
@@ -69,17 +70,10 @@
   grid-column: 3/4;
   grid-row: 3/4;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   .test {
-    display: none;
-  }
-}
-
-.DivPersso {
-  display: block;
-}
-@media (max-width: 1440px) and (min-width: 320px) {
-  .DivPersso {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
   }
 }/*# sourceMappingURL=information.css.map */
