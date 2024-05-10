@@ -16,7 +16,7 @@
 @media (max-width: 425px) {
   .modal {
     top: 70%;
-    left: 13%;
+    left: 50%;
     position: fixed;
   }
 }
@@ -45,7 +45,9 @@
 }
 @media (max-width: 425px) {
   .Mail-footer {
-    margin-left: 50px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 

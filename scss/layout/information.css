@@ -75,22 +75,16 @@
   }
 }
 
-#elements {
+.DivPersso {
   display: none;
 }
-
-#toggle:checked ~ #elements {
-  display: block;
-}
 @media (max-width: 768px) {
-  #toggle:checked ~ #elements #toggle:checked ~ #elements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -350px;
-    background-color: #102b3f;
-    height: auto;
-    width: 500px;
+  .DivPersso {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .DivPersso {
+    display: none;
   }
 }/*# sourceMappingURL=information.css.map */

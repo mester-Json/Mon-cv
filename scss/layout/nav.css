@@ -10,11 +10,13 @@ nav {
 }
 @media (max-width: 768px) {
   nav {
+    width: auto;
     height: auto;
   }
 }
 @media (max-width: 425px) {
   nav {
+    width: auto;
     height: auto;
   }
 }

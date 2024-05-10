@@ -54,7 +54,7 @@ footer {
   background-image: url(../img/endless-constellation.svg);
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .Tel {
     border-bottom: 1px solid #102b3f;
     background-color: white;
@@ -84,27 +84,41 @@ footer {
     height: 50px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 425px) and (min-width: 320px) {
   .Tel {
-    display: block;
-    margin-left: 0;
+    border-bottom: 1px solid #102b3f;
     background-color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    width: 40%;
+    width: 50%;
+    height: 20px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-inline-start: 10px;
+    font-size: 18px;
+    display: block;
   }
   .Telpc {
     display: none;
   }
   .Copyrigth {
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .text {
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
+    text-align: center;
   }
   .fin {
     font-size: 18px;
-    width: 70%;
+    width: auto;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=footer.css.map */
