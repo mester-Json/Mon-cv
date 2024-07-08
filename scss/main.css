@@ -465,7 +465,9 @@ h2 {
 }
 
 .A_propos_de_moi {
+  width: 50%;
   font-size: 20px;
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 380px;
   color: black;
