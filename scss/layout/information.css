@@ -1,3 +1,8 @@
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .nom,
 .anniv,
 .tel,
@@ -5,76 +10,25 @@
 .adresse,
 .ville {
   color: rgb(255, 255, 255);
-  margin-left: 1600px;
+  margin-left: 10px;
+  padding: 5px;
   font-size: 18px;
   pointer-events: auto;
   text-align: center;
-  justify-content: center;
   text-decoration: none;
-  display: flex;
-  grid-column: 3/4;
-  grid-row: 4/5;
-}
-@media (min-width: 768px) and (max-width: 1440px) {
-  .nom,
-  .anniv,
-  .tel,
-  .mail,
-  .adresse,
-  .ville {
-    margin-left: 780px;
-    margin-right: 0px;
-    font-size: 18px;
-  }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-  .nom,
-  .anniv,
-  .tel,
-  .mail,
-  .adresse,
-  .ville {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
-  }
 }
 
 .fa-github {
   color: rgb(255, 255, 255);
   font-size: 35px;
-  margin-left: 1685px;
+  margin-left: 10px;
   pointer-events: auto;
   text-align: center;
-  justify-content: center;
   text-decoration: none;
-  display: flex;
-  grid-column: 3/4;
-  grid-row: 4/5;
-}
-@media (min-width: 768px) and (max-width: 1440px) {
-  .fa-github {
-    margin-left: 875px;
-    margin-right: 0px;
-    font-size: 25px;
-  }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-  .fa-github {
-    margin-left: 45%;
-    margin-right: auto;
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
 }
 
 .fa-phone {
-  margin-top: 18px;
   margin-right: 5px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
 }
 
 .test {
@@ -82,48 +36,15 @@
   height: 100px;
   border: 2px solid white;
   border-radius: 90%;
-  margin-top: 5px;
-  margin-left: 1650px;
-  margin-bottom: 20px;
-  display: flex;
-  grid-column: 3/4;
-  grid-row: 3/4;
-}
-@media (min-width: 768px) and (max-width: 1440px) {
-  .test {
-    margin-left: 825px;
-    margin-right: 20px;
-  }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-  .test {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-  }
+  margin: 10px;
 }
 
-@media (max-width: 1440px) {
-  .responssive {
-    margin-left: 650px;
-    margin-right: auto;
-  }
-}
-@media (max-width: 1024px) {
-  .responssive {
-    margin-left: 250px;
-    margin-right: auto;
-  }
-}
 @media (max-width: 768px) {
-  .responssive {
-    margin-left: 0;
-    margin-right: auto;
+  .contact-info {
+    flex-direction: column;
   }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-  .responssive {
-    margin-left: auto;
-    margin-right: auto;
+  .fa-github,
+  .test {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=information.css.map */
