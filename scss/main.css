@@ -503,6 +503,7 @@ h4 {
   display: inline-flex;
 }
 
+.dawan,
 .bac2,
 .Cap,
 .bac,
@@ -550,7 +551,8 @@ h5 {
 .React,
 .Symfony,
 .Debian,
-.Terminal {
+.Terminal,
+.Java {
   margin-left: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -630,6 +632,7 @@ h6 {
   h4,
   h5,
   h6,
+  .dawan,
   .A_propos_de_moi,
   .bloc,
   .bac2,
@@ -696,6 +699,7 @@ h6 {
   h4,
   h5,
   h6,
+  .dawan,
   .A_propos_de_moi,
   .bloc,
   .bac2,
