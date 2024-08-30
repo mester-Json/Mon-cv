@@ -92,9 +92,17 @@ h5 {
 .Symfony,
 .Debian,
 .Terminal,
-.Java {
+.Java ,
+{
     margin-left: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.Spring {
+    margin-left: 15px;
+    margin-top: 25px;
     margin-bottom: 20px;
     font-size: 50px;
 }
@@ -231,9 +239,11 @@ h6 {
     .React,
     .Symfony,
     .Debian,
-    .Terminal {
+    .Terminal,
+    .Java,
+    .Spring{
         display: flex;
-        flex-direction: wrap;
+        flex-wrap: wrap;
         font-size: 45px;
     }
 
@@ -304,9 +314,11 @@ h6 {
     .React,
     .Symfony,
     .Debian,
-    .Terminal {
+    .Terminal,
+    .Java,
+    .Spring{
         display: flex;
-        flex-direction: wrap;
+        flex-wrap: wrap;
         font-size: 45px;
     }
 

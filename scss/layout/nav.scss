@@ -31,6 +31,9 @@ nav {
     grid-column: 1 / 2;
     grid-row: auto;
 
+
+
+
     @media (max-width: 1440px) {
         padding-left: 125px;
         margin-right: auto;
@@ -49,4 +52,14 @@ nav {
     @media (max-width: 425px) {
         display: none;
     }
+}
+
+
+.A-propos-de-moi:hover ,
+.Experience:hover,
+.Scolaire:hover,
+.Compétence:hover,
+.Loisir:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
