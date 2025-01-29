@@ -74,4 +74,13 @@ nav {
   .Loisir {
     display: none;
   }
+}
+
+.A-propos-de-moi:hover,
+.Experience:hover,
+.Scolaire:hover,
+.Compétence:hover,
+.Loisir:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }/*# sourceMappingURL=nav.css.map */

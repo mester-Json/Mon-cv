@@ -11,7 +11,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./img/images.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utiles/style.css">
     <title> Mon CV | Accueil </title>
 </head>
 
@@ -32,42 +32,6 @@
         <a href="#h6" class="Loisir">
             <p> Loisirs </p>
         </a>
-        <!-- 
-        <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div> -->
-        <!-- <ul class="nav-links">
-            <li>
-                <div class="DivPersso">
-                    <img src="./img/1690303954048.jpeg" alt="La photo de moi" class="test">
-                    <a class="nom">
-                        <p>Jayson Decubber</p>
-                    </a>
-                    <a class="anniv">
-                        <p>05 / 08 / 2002</p>
-                    </a>
-                    <a class="tel">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>: 07.63.88.03.95</p>
-                    </a>
-                    <a class="mail">
-                        <p>Decubberjayson@gmail.com</p>
-                    </a>
-                    <a class="adresse">
-                        <p>D15 rue Ste Cécile, Résidence Anatole France, Apt 3</p>
-                    </a>
-                    <a class="ville">
-                        <p>62420 / Billy-Montigny</p>
-                    </a>
-                    <a class="github" target="_blank" href="https://github.com/mester-json">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </div>
-            </li>
-        </ul> -->
-
         <div class="pc">
             <h1> Hello World ! </h1>
             <a class="Nom_titles">
@@ -251,21 +215,38 @@
             <a id="openModal" class="Mail-footer">Decubberjayson@gmail.com</a>
         </div>
 
-        <!-- Modal -->
+        <!-- La modal pour envoyer l'email -->
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <form id="emailForm">
-                    <label for="to">Destinataire :</label><br>
-                    <input type="email" id="to" name="to" placeholder="Adresse e-mail du destinataire"><br>
+                    <label for="userEmail">Votre adresse e-mail :</label><br>
+                    <input type="email" id="userEmail" name="userEmail" placeholder="Votre adresse e-mail" required><br>
+
                     <label for="subject">Sujet :</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="Sujet de l'e-mail"><br>
+                    <input type="text" id="subject" name="subject" placeholder="Sujet de l'e-mail" required><br>
+
                     <label for="message">Message :</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message"></textarea><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message" required></textarea><br>
+
                     <input id="clik" type="submit" value="Envoyer">
                 </form>
                 <i id="closeModal" class="fa-solid fa-xmark"></i>
             </div>
         </div>
+
+
+        <!-- Popup de consentement des cookies -->
+        <div id="cookiePopup" class="cookie-popup">
+            <div class="cookie-content">
+                <p>Nous utilisons des cookies pour améliorer votre expérience et collecter des informations, notamment
+                    votre adresse e-mail. En soumettant ce formulaire, vous consentez à ce que nous recueillions et traitions votre e-mail pour vous répondre.
+                    <a href="rgpd.html" target="_blank">En savoir plus</a>.</p>
+                <button id="acceptCookies">Accepter</button>
+                <button id="declineCookies">Refuser</button>
+            </div>
+        </div>
+
+
         <a href="tel:0763880395 " class="Tel">
             <p> Cliquer pour appeler </p>
         </a>
@@ -274,9 +255,9 @@
         </a>
     </div>
     <footer>
-        <p class=" Copyrigth"> ©-2024-Jayson-Decubber </p>
+        <p class=" Copyrigth"> ©-2025-Jayson-Decubber </p>
     </footer>
-    <script src="./accueil-function.js"></script>
+    <script src="utiles/accueil-function.js"></script>
 </body>
 
 </html>

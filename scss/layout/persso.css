@@ -103,6 +103,13 @@ h5 {
   font-size: 50px;
 }
 
+.Spring {
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
 .fa-html5 {
   color: #e34c26;
 }
@@ -221,9 +228,11 @@ h6 {
   .React,
   .Symfony,
   .Debian,
-  .Terminal {
+  .Terminal,
+  .Java,
+  .Spring {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     font-size: 45px;
   }
   .fas {
@@ -288,9 +297,11 @@ h6 {
   .React,
   .Symfony,
   .Debian,
-  .Terminal {
+  .Terminal,
+  .Java,
+  .Spring {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     font-size: 45px;
   }
   .fas {
