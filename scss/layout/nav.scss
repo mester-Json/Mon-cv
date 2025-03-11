@@ -13,11 +13,7 @@ nav {
     }
 }
 
-.A-propos-de-moi,
-.Experience,
-.Scolaire,
-.Compétence,
-.Loisir {
+.nav-link {
     margin-top: 20px;
     padding-left: 100px;
     font-size: 20px;
@@ -55,11 +51,7 @@ nav {
 }
 
 
-.A-propos-de-moi:hover ,
-.Experience:hover,
-.Scolaire:hover,
-.Compétence:hover,
-.Loisir:hover {
+.nav-link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }

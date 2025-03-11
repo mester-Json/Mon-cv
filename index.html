@@ -3,7 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Jayson Decubber, Développeur CDA, CV, informatique, alternance, développement web, compétences techniques" />
+    <meta name="description" content="Mon CV de Jayson Decubber, Développeur CDA, à la recherche d'une alternance en développement informatique." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="CV de Jayson Decubber" />
+    <meta property="og:description" content="Découvrez mon parcours de développeur , mes compétences et mon expérience." />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="./scss/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
@@ -12,36 +18,44 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./img/images.ico" type="image/x-icon">
     <link rel="stylesheet" href="utiles/style.css">
-    <title> Mon CV | Accueil </title>
+    <title>CV de Jayson Decubber | Développeur CDA </title>
 </head>
 
 <body>
+
     <nav>
-        <a href="#h2" class="A-propos-de-moi">
-            <p> À propos de moi </p>
+
+        <a href="#moi" aria-label="Aller à la section À propos de moi" title="Aller à la section  À propos de moi "  class="nav-link">
+         <p>   À propos de moi</p>
         </a>
-        <a href="#h3" class="Experience">
-            <p> Mes diplômes </p>
+
+        <a href="#scolaire" class="nav-link"  title="Aller à la section  À Mes Diplôme" >
+           <p> Mes diplômes</p>
         </a>
-        <a href="#h4" class="Scolaire">
-            <p> Mes expériences professionnelles </p>
+
+
+        <a href="#experience" class="nav-link" title="Aller à la section  À Mes Experience " >
+           <p> Mes expériences professionnelles</p>
         </a>
-        <a href="#h5" class="Compétence">
-            <p> Mes compétences </p>
+
+        <a href="#competence" class="nav-link" title="Aller à la section Mes Competence " >
+            <p> Mes compétences</p>
         </a>
-        <a href="#h6" class="Loisir">
-            <p> Loisirs </p>
+
+        <a href="#loisir" class="nav-link" title="Aller à la section Mes Loisir " >
+            <p> Loisirs</p>
         </a>
+
         <div class="pc">
             <h1> Hello World ! </h1>
             <a class="Nom_titles">
                 <p> Jayson Decubber </p>
             </a>
             <a class="titles">
-                <p>Développeur full stack </p>
+                <p>Comcepteur Développeur d'Application  </p>
             </a>
             <div class="responssive">
-                <img src="./img/1690303954048.jpeg" alt="La photo de moi" class="test">
+                <img src="./img/1690303954048.jpeg"  loading="lazy"  alt="La photo de moi" class="test">
                 <a class="nom">
                     <p>
                         Jayson Decubber
@@ -79,7 +93,7 @@
             </div>
         </div>
     </nav>
-    <h2 id="h2"> À propos de moi </h2>
+    <h2 id="moi"> À propos de moi </h2>
     <a class="A_propos_de_moi">
         <p> Hello World ! Je m'appelle Jayson Decubber, un développeur junior enthousiaste. Actuellement,
             je suis à la
@@ -92,7 +106,7 @@
     </a>
     <div class="bloc">
         <div>
-            <h3 id="h3"> Mes diplômes </h3>
+            <h3 id="scolaire"> Mes diplômes </h3>
 
             <a class="dawan">
                 <p> CDA <br> 2024 / 2025 <br> Dawan
@@ -118,7 +132,7 @@
             </a>
         </div>
         <div>
-            <h4 id="h4"> Mes expériences professionnelles </h4>
+            <h4 id="experience"> Mes expériences professionnelles </h4>
             <a class="hyzen">
                 <p> Stage Dev Full Stack <br> 1 Mois <br> Hyzen <br> Télétravail
                 </p>
@@ -141,7 +155,7 @@
     </div>
     <div class="bloc2">
         <div>
-            <h5 id="h5">Mes compétences</h5>
+            <h5 id="competence">Mes compétences</h5>
             <div class="technique">
                 <a class="Html">
                     <i class="fa-brands fa-html5"></i>
@@ -190,7 +204,7 @@
     </div>
     <div class="bloc3">
         <div>
-            <h6 id="h6"> Loisirs </h6>
+            <h6 id="loisirs"> Loisirs </h6>
             <div>
                 <span class="fas  fa-brands fa-twitch"></span>
                 <a class="text">
@@ -212,7 +226,7 @@
             <p>Au plaisir de vous recontacter</p>
         </a>
         <div>
-            <a id="openModal" class="Mail-footer">Decubberjayson@gmail.com</a>
+            <a id="openModal" title="Envoyer un Mail "  aria-label="Aller à la section À propos de moi" class="Mail-footer">Decubberjayson@gmail.com</a>
         </div>
 
         <!-- La modal pour envoyer l'email -->

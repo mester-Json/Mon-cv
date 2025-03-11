@@ -1,5 +1,5 @@
 .pc {
-  background-image: url(../img/Ordinateur.png);
+  background-image: url(../../img/Ordinateur.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid white;
@@ -18,7 +18,7 @@
 }
 @media (max-width: 1440px) {
   .pc {
-    background-image: url(../img/Ordinateur.png);
+    background-image: url(../../img/Ordinateur.png);
     width: 1050px;
     height: 550px;
     margin-top: 50px;
@@ -32,7 +32,7 @@
 }
 @media (max-width: 1024px) {
   .pc {
-    background-image: url(../img/Ordinateur.png);
+    background-image: url(../../img/Ordinateur.png);
     width: 750px;
     height: 550px;
     margin-top: 50px;
@@ -129,4 +129,6 @@ h1 {
   .titles {
     display: none;
   }
-}/*# sourceMappingURL=img_nav.css.map */
+}
+
+/*# sourceMappingURL=img_nav.css.map */

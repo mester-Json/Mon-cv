@@ -24,11 +24,7 @@ nav {
   }
 }
 
-.A-propos-de-moi,
-.Experience,
-.Scolaire,
-.Compétence,
-.Loisir {
+.nav-link {
   margin-top: 20px;
   padding-left: 100px;
   font-size: 20px;
@@ -43,31 +39,19 @@ nav {
   grid-row: auto;
 }
 @media (max-width: 1440px) {
-  .A-propos-de-moi,
-  .Experience,
-  .Scolaire,
-  .Compétence,
-  .Loisir {
+  .nav-link {
     padding-left: 125px;
     margin-right: auto;
   }
 }
 @media (max-width: 1024px) {
-  .A-propos-de-moi,
-  .Experience,
-  .Scolaire,
-  .Compétence,
-  .Loisir {
+  .nav-link {
     padding-left: 55px;
     margin-right: auto;
   }
 }
 @media (max-width: 768px) {
-  .A-propos-de-moi,
-  .Experience,
-  .Scolaire,
-  .Compétence,
-  .Loisir {
+  .nav-link {
     padding-left: 10px;
     margin-top: 10px;
     margin-left: 15px;
@@ -76,20 +60,12 @@ nav {
   }
 }
 @media (max-width: 425px) {
-  .A-propos-de-moi,
-  .Experience,
-  .Scolaire,
-  .Compétence,
-  .Loisir {
+  .nav-link {
     display: none;
   }
 }
 
-.A-propos-de-moi:hover,
-.Experience:hover,
-.Scolaire:hover,
-.Compétence:hover,
-.Loisir:hover {
+.nav-link:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
@@ -255,6 +231,10 @@ footer {
   border-radius: 30px;
   box-shadow: 0px 0px 10px rgb(0, 0, 0);
   position: relative;
+}
+
+.Mail-footer:hover {
+  cursor: help;
 }
 
 /* Styles pour le lien */
@@ -468,8 +448,7 @@ h2 {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 20%;
-  -webkit-text-decoration: underline solid red;
-          text-decoration: underline solid red;
+  text-decoration: underline solid red;
   display: flex;
 }
 
@@ -496,8 +475,7 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 380px;
   margin-top: 10px;
-  -webkit-text-decoration: underline solid red;
-          text-decoration: underline solid red;
+  text-decoration: underline solid red;
   display: inline-flex;
 }
 
@@ -507,8 +485,7 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 200px;
   margin-top: 10px;
-  -webkit-text-decoration: underline solid red;
-          text-decoration: underline solid red;
+  text-decoration: underline solid red;
   display: inline-flex;
 }
 
@@ -540,8 +517,7 @@ h5 {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 380px;
-  -webkit-text-decoration: underline solid red;
-          text-decoration: underline solid red;
+  text-decoration: underline solid red;
   display: flex;
 }
 
@@ -620,8 +596,7 @@ h6 {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 380px;
-  -webkit-text-decoration: underline solid red;
-          text-decoration: underline solid red;
+  text-decoration: underline solid red;
   display: flex;
 }
 
@@ -952,4 +927,6 @@ h6 {
 
 #acceptCookies:hover, #declineCookies:hover {
   opacity: 0.8;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
